@@ -1,22 +1,23 @@
 #mainDiv {
     position: fixed;
-    width: 150px;
-    height: 150px;
-    border-style: solid;
-    border-color: green;
-    left: 700px;
-    top:250px;
+    width: 120px;
+    height: 120px;
+    left: 500px;
+    top:400px;
+    background-color: transparent;
 }
 #duck{
-
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
 }
 
 div div {
     border-style: solid;
     border-radius: 50%;
-    position: inherit;
+    position: absolute;
 }
-
 
 div:nth-child(1){
     height: 100%;
